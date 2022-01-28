@@ -7,7 +7,7 @@
   vars:
     clone_path: '{{ HOME }}/besman_install.sh'
   get_url:
-    url: https://raw.githubusercontent.com/Be-Secure/BeSman/dist/dist/get.besman.io
+    url: https://raw.githubusercontent.com/asa1997/BeSman/dist/dist/get.besman.io
     dest: "{{ clone_path }}"
 
 - name: Executing bes environment
